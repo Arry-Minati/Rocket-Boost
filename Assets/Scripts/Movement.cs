@@ -8,9 +8,11 @@ public class Movement : MonoBehaviour
     [SerializeField] float thrustStrength = 100f;
     [SerializeField] float rotationStrength = 100f;
 
+   
     Rigidbody rb;
     AudioSource audioSource;
 
+   
     void Start()
     {
         rb = GetComponent<Rigidbody>();
