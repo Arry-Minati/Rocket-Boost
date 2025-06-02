@@ -766,6 +766,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5113521549588701647, guid: 071eb7033fa296e4ebb2f7e939dc5ab3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.78
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2782468572165013254, guid: 071eb7033fa296e4ebb2f7e939dc5ab3, type: 3}
@@ -946,7 +950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementVector: {x: 0, y: 12, z: 0}
-  speed: 0.5
+  speed: 0.3
 --- !u!65 &1714995003
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -985,8 +989,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c4992b94e458c46a36e3d82275960f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementVector: {x: 0, y: -15, z: 0}
-  speed: 1
+  movementVector: {x: 0, y: -10, z: 0}
+  speed: 0.6
 --- !u!65 &1755180128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1176,7 +1180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementVector: {x: 0, y: 12, z: 0}
-  speed: 0.2
+  speed: 0.5
 --- !u!65 &1999806095
 BoxCollider:
   m_ObjectHideFlags: 0
